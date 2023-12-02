@@ -242,62 +242,8 @@ class BotView(ABC):
 
 
 if __name__ == "__main__":
-
-    '''Checking Class Description'''
-    # book = AddressBook()
-
-    # john_record = Record(Name("John"), Phone("5555555555"), Birthday('24.09.2012'))
-    # BotView.display_content(john_record, False)
-    # print(john_record.days_to_birthday())
-    # john_record.add_phone(Phone("1234567890"))
-    # john_record.add_phone(Phone("1234567890"))
-    # john_record.add_phone(Phone("5555555555"))   
-
-    # print('Додавання запису John до адресної книги\n')
-    # book.add_record(john_record)
-   
-    # print('Створення та додавання нового запису для Jane\n')
-    # jane_record = Record(Name("Jane"))
-    # jane_record.add_phone(Phone("9876543210"))
-    # book.add_record(jane_record)
-
-    # print('Знаходження та редагування телефону для John\n')
-    # john = book.find_on_name("John")
-    # print(john)
-
-    # print('Замінити номер телефону\n')
-    # print(john.edit_phone(Phone("1234567890"), Phone("1112223333")))
-
-    
-    # print('Пошук конкретного телефону у записі John')
-    # found_phone = john.find_phone(Phone("5555555555"))
-    # print(found_phone)
-    # print(book.delete_record(book.find_on_name("Jane")))
-
-    
-    # book.add_record(Record(Name("Anna"), Phone("1111111111"), Birthday('24.07.2007')))
-    # book.add_record(Record(Name("Boris"), Phone("2222222222"), Birthday('01.12.1969')))
-    # book.add_record(Record(Name("Sidny"), Phone("3333333333"), Birthday('03.03.2003')))
-    # book.add_record(Record(Name("Duk"), Phone("4444444444"), Birthday('04.04.1993')))
-    # book.add_record(Record(Name("Richard"), Phone("6666666666"), Birthday('15.05.2015')))
-    # book.add_record(Record(Name("Teddy"), Phone("7777777777"), Birthday('27.07.2020')))
-    # book.add_record(Record(Name("Gregory"), Phone("8888888888"), Birthday('18.07.2018')))
-    # book.add_record(Record(Name("Sofia"), Phone("9999999999"), Birthday('06.03.2005')))
-    # book.add_record(Record(Name("Nik"), Phone("1234567890"), Birthday('09.08.2011')))
-    # book.add_record(Record(Name("Bob"), Phone("9078563412"), Birthday('28.02.2004')))  
-
-    # print('Виведення всіх записів у книзі')
-    # for i in book.iterator(12):
-    #     print(i)
-    
-    # print('Save dict\n')
-    # print(book.save_address_book('new_file.bin'))
-
-    # new_book= AddressBook()
-    # new_book = new_book.unpack_address_book('new_file.bin')
-
-    # for i in new_book.iterator(12):
-    #     print(i)
+    ...
+  
     
 
 
