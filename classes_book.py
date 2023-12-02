@@ -74,7 +74,7 @@ class Birthday(Field):
     
     @value.setter
     def value(self, value:str) -> None:
-        str_date:None
+        str_date = None
         list_date = []
         str_date = re.search('\d\d/\d\d/\d{4}', value) 
         if  str_date:
